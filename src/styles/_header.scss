@@ -1,0 +1,58 @@
+.header {
+  height: 110px;
+  box-sizing: border-box;
+  width: 100%;
+  padding: 32px 50px;
+  box-shadow: 2px 2px 30px rgba(0, 0, 0, 0.07);
+  display: flex;
+  align-items: center;
+  .logo {
+    width: 187px;
+  }
+  .nav-links-left {
+    padding-left: 50px;
+    & > * {
+      padding-right: 50px;
+    }
+  }
+
+  a {
+    text-decoration: none;
+    color: $offBlack;
+    transition: 0.2s;
+    &:hover {
+      color: $orange;
+      transition: 0.2s;
+    }
+  }
+  span {
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 19px;
+    letter-spacing: 0.15em;
+  }
+  .nav-links-right {
+    flex-grow: 1;
+    justify-content: flex-end;
+    display: flex;
+    align-items: center;
+    & a:first-child {
+      margin-right: 50px;
+    }
+    .cta-button {
+      background-color: $orange;
+      color: white;
+      padding: 10px 35px;
+      border-radius: 20px;
+      transition: 0.2s;
+      &:hover {
+        background-color: $navy;
+        transition: 0.2s;
+      }
+    }
+    .avatar {
+      width: 50px;
+    }
+  }
+}

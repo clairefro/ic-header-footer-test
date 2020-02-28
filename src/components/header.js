@@ -32,9 +32,6 @@ const Header = (props) => (
         <img src={avatar} className="avatar" alt="membres"/>
       </Link>
     </div>
-
-
-
   </div>
 )
 

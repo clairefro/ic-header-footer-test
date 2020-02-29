@@ -8,17 +8,16 @@ const Footer = (props) => (
   <div className="footer">
     <div className="social-media">
       <Link to="/">
-        <img height="22px" src={fb} alt="Facebook"/>
+        <i class="lab la-facebook-f"></i>
       </Link>
       <Link to="/">
-        <img height="22px" src={insta} alt="Instagram"/>
+        <i class="lab la-instagram"></i>
       </Link>
       <Link to="/">
-        <img height="22px" src={twitter} alt="Twitter"/>
+        <i class="lab la-twitter"></i>
       </Link>
     </div>
-    <hr/>
-    <div className="link-group-wrapper">
+    <div className="link-group-wrapper link-group-named-navigation">
       <div className="link-group">
         <p className="link-group-title">Navigation</p>
         <Link to="/">
@@ -41,7 +40,7 @@ const Footer = (props) => (
         </Link>
       </div>
 
-      <div className="link-group">
+      <div className="link-group link-group-named-company">
         <p className="link-group-title">Compagnie</p>
         <Link to="/">
           <p>Be.Care</p>
@@ -68,7 +67,7 @@ const Footer = (props) => (
           <p>Mentions légales</p>
         </Link>
       </div>
-      <div className="link-group">
+      <div className="link-group link-group-named-contact">
         <p className="link-group-title">Nous Contacter</p>
         <Link to="/">
           <p>Démo</p>

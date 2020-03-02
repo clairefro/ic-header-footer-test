@@ -1,20 +1,17 @@
 import React from "react"
 import { Link } from "gatsby"
-import insta from "../../static/images/instagram.svg"
-import fb from "../../static/images/facebook.svg"
-import twitter from "../../static/images/twitter.svg"
 
 const Footer = (props) => (
   <div className="footer">
     <div className="social-media">
       <Link to="/">
-        <i class="lab la-facebook-f"></i>
+        <i className="lab la-facebook-f"></i>
       </Link>
       <Link to="/">
-        <i class="lab la-instagram"></i>
+        <i className="lab la-instagram"></i>
       </Link>
       <Link to="/">
-        <i class="lab la-twitter"></i>
+        <i className="lab la-twitter"></i>
       </Link>
     </div>
     <div className="link-group-wrapper link-group-named-navigation">
